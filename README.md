@@ -44,5 +44,5 @@ git submodule update --remote --merge
 他のユーザーがクローンする場合、単純にクローンするだけではサブモジュールの情報は取得できないため、以下のような工夫を設ける。
 
 ```bash
-git clone --recurse-submodules https://github.com/your-org/repo-main.git
+git clone --recurse-submodules https://github.com/yukihito-jokyu/submodule_main.git
 ```

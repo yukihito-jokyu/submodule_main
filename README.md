@@ -30,6 +30,16 @@ git submodule add https://github.com/yukihito-jokyu/submodule_b.git submodule/su
 
 ## pull
 
+- 初回
+
+単純にclone下だけの場合、以下のコマンドからサブモジュールの情報を取得する。
+
+```bash
+git submodule update --init --recursive
+```
+
+- 2回目以降
+
 サブモジュールのレポジトリの main ブランチに変更があり、同期したいときは以下のコマンドを実行する。
 
 ```bash
